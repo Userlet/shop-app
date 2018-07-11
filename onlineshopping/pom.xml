@@ -12,6 +12,12 @@
 		<spring.version>5.0.7.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!--Link backend project -->
+		<dependency>
+			<groupId>com.elu.shop</groupId>
+			<artifactId>shop-backend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!--JAVA EE API -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -38,7 +44,7 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		
+
 	</dependencies>
 	<build>
 		<plugins>
